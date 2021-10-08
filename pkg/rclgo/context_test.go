@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
+	std_msgs "github.com/TIERS/rclgo/internal/msgs/std_msgs/msg"
+	std_srvs_srv "github.com/TIERS/rclgo/internal/msgs/std_srvs/srv"
+	"github.com/TIERS/rclgo/pkg/rclgo/types"
 	. "github.com/smartystreets/goconvey/convey"
-	std_msgs "github.com/tiiuae/rclgo/internal/msgs/std_msgs/msg"
-	std_srvs_srv "github.com/tiiuae/rclgo/internal/msgs/std_srvs/srv"
-	"github.com/tiiuae/rclgo/pkg/rclgo/types"
 )
 
 func TestContextClose(t *testing.T) {

@@ -9,7 +9,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 
 package main
 
-import cmd "github.com/tiiuae/rclgo/cmd/rclgo/cmd"
+import cmd "github.com/TIERS/rclgo/cmd/rclgo/cmd"
 
 func main() {
 	cmd.Execute()

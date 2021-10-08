@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	std_srvs_srv "github.com/tiiuae/rclgo/internal/msgs/std_srvs/srv"
-	"github.com/tiiuae/rclgo/pkg/rclgo/typemap"
+	std_srvs_srv "github.com/TIERS/rclgo/internal/msgs/std_srvs/srv"
+	"github.com/TIERS/rclgo/pkg/rclgo/typemap"
 )
 
 func TestGetService(t *testing.T) {

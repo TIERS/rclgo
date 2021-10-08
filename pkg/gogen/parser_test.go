@@ -62,14 +62,6 @@ func TestParseROS2Field(t *testing.T) {
 			`string[3] string_values_default ["", "max value", "min value"]`,
 			ROS2MessageNew("test_msgs", "Arrays_Response"),
 		)
-		testFunc("Fields with comments containing '=' do not get identified as Constants",
-			`float32 v_ref                      # ADC channel voltage reference, use to calculate LSB voltage(lsb=scale/resolution)`,
-			ROS2MessageNew("px4_msgs", "AdcReport"),
-		)
-		testFunc("Array size int is big enough to store the C array size.",
-			`uint8[512] junk`,
-			ROS2MessageNew("px4_msgs", "OrbTestLarge"),
-		)
 		testFunc(`C struct has reserved Go keyword .test. Accessed with ._test instead.`,
 			`uint8 type`,
 			ROS2MessageNew("sensor_msgs", "JoyFeedback"),

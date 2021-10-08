@@ -87,10 +87,10 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/TIERS/rclgo/pkg/rclgo/types"
 	"github.com/google/shlex"
 	"github.com/hashicorp/go-multierror"
 	"github.com/kivilahtio/go-re/v0"
-	"github.com/tiiuae/rclgo/pkg/rclgo/types"
 )
 
 type RmwMessageInfo struct {

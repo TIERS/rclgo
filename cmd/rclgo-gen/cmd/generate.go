@@ -14,10 +14,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/TIERS/rclgo/pkg/gogen"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"github.com/tiiuae/rclgo/pkg/gogen"
 )
 
 func validateGenerateArgs(cmd *cobra.Command, args []string) error {

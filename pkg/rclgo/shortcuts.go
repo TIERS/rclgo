@@ -17,10 +17,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/TIERS/rclgo/pkg/datagenerator"
+	"github.com/TIERS/rclgo/pkg/rclgo/typemap"
+	"github.com/TIERS/rclgo/pkg/rclgo/types"
 	"github.com/hashicorp/go-multierror"
-	"github.com/tiiuae/rclgo/pkg/datagenerator"
-	"github.com/tiiuae/rclgo/pkg/rclgo/typemap"
-	"github.com/tiiuae/rclgo/pkg/rclgo/types"
 	"gopkg.in/yaml.v2"
 )
 

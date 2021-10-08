@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	example_interfaces_srv "github.com/TIERS/rclgo/internal/msgs/example_interfaces/srv"
 	. "github.com/smartystreets/goconvey/convey"
-	example_interfaces_srv "github.com/tiiuae/rclgo/internal/msgs/example_interfaces/srv"
-	"github.com/tiiuae/rclgo/pkg/rclgo/types"
+	"github.com/TIERS/rclgo/pkg/rclgo/types"
 )
 
 func TestServiceAndClient(t *testing.T) {

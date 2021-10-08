@@ -15,10 +15,10 @@ package test_msgs_srv
 import (
 	"unsafe"
 
-	"github.com/tiiuae/rclgo/pkg/rclgo/types"
-	"github.com/tiiuae/rclgo/pkg/rclgo/typemap"
-	test_msgs_msg "github.com/tiiuae/rclgo/internal/msgs/test_msgs/msg"
-	primitives "github.com/tiiuae/rclgo/pkg/rclgo/primitives"
+	"github.com/TIERS/rclgo/pkg/rclgo/types"
+	"github.com/TIERS/rclgo/pkg/rclgo/typemap"
+	test_msgs_msg "github.com/TIERS/rclgo/internal/msgs/test_msgs/msg"
+	primitives "github.com/TIERS/rclgo/pkg/rclgo/primitives"
 	
 )
 /*

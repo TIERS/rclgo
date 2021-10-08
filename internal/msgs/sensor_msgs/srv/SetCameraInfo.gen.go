@@ -24,8 +24,8 @@ package sensor_msgs_srv
 import "C"
 
 import (
-	"github.com/tiiuae/rclgo/pkg/rclgo/typemap"
-	"github.com/tiiuae/rclgo/pkg/rclgo/types"
+	"github.com/TIERS/rclgo/pkg/rclgo/typemap"
+	"github.com/TIERS/rclgo/pkg/rclgo/types"
 
 	"unsafe"
 )
