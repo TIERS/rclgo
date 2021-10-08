@@ -7,5 +7,5 @@ require (
 	github.com/spf13/cobra v1.1.3
 	github.com/spf13/viper v1.7.1
 	github.com/TIERS/rclgo v0.0.0-20211008150307-8dd0c40802a6
-	github.com/TIERS/rclgo-msgs v0.0.0-20211008152114-884e83dbfac4
+	github.com/TIERS/rclgo-msgs v0.0.0-20211008153821-b2a44a1030fd
 )
