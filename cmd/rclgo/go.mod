@@ -1,4 +1,4 @@
-module github.com/tiiuae/rclgo/cmd/rclgo
+module github.com/TIERS/rclgo/cmd/rclgo
 
 go 1.16
 
