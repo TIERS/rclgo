@@ -9,5 +9,3 @@ require (
 	github.com/tiiuae/rclgo v0.0.0-20210608082116-2a9c702d8fdc
 	github.com/tiiuae/rclgo-msgs v0.0.0-20210608113630-1716fa950d7b
 )
-
-replace github.com/tiiuae/rclgo => ../..
